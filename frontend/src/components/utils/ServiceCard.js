@@ -8,12 +8,18 @@ import view from '../../assets/icons/view.svg';
 import starFilled from '../../assets/icons/starFilled.svg';
 import star from '../../assets/icons/Star.svg';
 import tiltedarrow from '../../assets/icons/tiltedarrow.svg';
+import '../../index.css';
+
 const ServiceCard = () => {
     return (
 
         <div className='flex px-4 py-10 border-2 rounded-3xl w-[max-content] gap-8 shadow-lg'>
-            <input type="checkbox" className='w-[25px] h-[25px] bg-[#d9d9d9] mt-[120px]' />
-
+            <div className='pt-20'>
+                <label class="checkbox-container">
+                    <input type="checkbox" />
+                    <span class="checkmark"></span>
+                </label>
+            </div>
             <div className='flex flex-col'>
                 <div>
                     <p className='text-[16px] font-semibold text-[#001b33]'>Service ID</p>
@@ -111,16 +117,23 @@ const ServiceCard = () => {
             <div className='text-[14px]'>
                 <p className='font-semibold'>Payment <br />to requestee</p>
                 <div className='flex gap-2 items-center pt-4'>
-                    <input type="checkbox" id='requestee' className='w-[25px] h-[25px] bg-[#d9d9d9]' />
-                    <label htmlFor="requestee">Aishwary</label>
+                    <label className="checkbox-container">
+                        <p className='text-[16px]'>Aishwary</p>
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                    </label>
                 </div>
             </div>
 
             <div className='text-[14px]'>
                 <p className='font-semibold'>Payment <br />Service Provider</p>
                 <div className='flex gap-2 items-center pt-4'>
-                    <input type="checkbox" id='provider' className='w-[25px] h-[25px] bg-[#d9d9d9]' />
-                    <label htmlFor="provider">Hemant</label>
+                    <label className="checkbox-container">
+                        <p className='text-[16px]'>Hemant</p>
+
+                        <input type="checkbox" />
+                        <span className="checkmark"></span>
+                    </label>
                 </div>
             </div>
 
