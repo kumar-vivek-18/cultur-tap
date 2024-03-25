@@ -24,22 +24,22 @@ const Navbar = () => {
                     />
                 </div>
                 <div className='flex gap-6'>
-                    <div className='w-[70px] h-[70px] rounded-full bg-[#d9d9d9]'></div>
+                    <div className='w-[60px] h-[60px] rounded-full bg-[#d9d9d9]'></div>
                     <img src={settings} alt="settings" width="45px" height="45px" />
                 </div>
 
             </div>
             <div className='flex gap-4 pt-[30px]'>
                 <div className='flex items-center gap-2'>
-                    <Link to='/' className='text-[18px] font-semibold'>Trip Planning Call</Link>
+                    <Link to='/' className='text-[16px] font-semibold'>Trip Planning Call</Link>
                     <p className='w-[24px] h-[24px] text-white flex justify-center items-center bg-[#faa02e] rounded-full'>0</p>
                 </div>
                 <div className='flex items-center gap-2'>
-                    <Link to='/localassistance' className='text-[18px] font-semibold'>Local Assistance</Link>
+                    <Link to='/localassistance' className='text-[16px] font-semibold'>Local Assistance</Link>
                     <p className='w-[24px] h-[24px] text-white flex justify-center items-center bg-[#faa02e] rounded-full'>0</p>
                 </div>
                 <div className='flex items-center gap-2'>
-                    <Link to='/help' className='text-[18px] font-semibold'>Help</Link>
+                    <Link to='/help' className='text-[16px] font-semibold'>Help</Link>
                     <p className='w-[24px] h-[24px] text-white flex justify-center items-center bg-[#faa02e] rounded-full'>0</p>
                 </div>
             </div>
