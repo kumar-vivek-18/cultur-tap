@@ -13,7 +13,7 @@ import '../../index.css';
 const ServiceCard = () => {
     return (
         <div>
-            <div className='shadow-lg px-4 py-10 rounded-3xl  w-[max-content] border-2'>
+            <div className='shadow-lg px-4 py-10 rounded-3xl w-[max-content]   border-2'>
                 {/* <div className='flex  gap-6 '>
 
                     <div className='flex flex-col'>
@@ -141,7 +141,7 @@ const ServiceCard = () => {
                     </div>
 
                 </div> */}
-                <div className='flex max-xl:flex-col gap-6 max-xl:gap-16 max-md:px-6 px-4 py-10 max-xl:px-20 max-lg:px-8   '>
+                <div className='flex max-xl:flex-col gap-6 max-xl:gap-16 max-md:px-6 px-4 py-10 max-xl:px-20 max-lg:px-8 w-[max-content]  '>
                     <div className='flex gap-8 max-xl:gap-24 max-lg:gap-12 max-md:flex-col'>
 
 
@@ -297,7 +297,7 @@ const ServiceCard = () => {
                 </div>
             </div>
 
-            <div className='flex gap-4 justify-end my-8'>
+            <div className='flex gap-4 justify-end my-8 max-md:flex-col max-md:items-center'>
                 <div className='text-[14px] w-[150px]  py-4 bg-[#fb8c00] text-center text-white font-bold cursor-pointer'>Call Hemanth</div>
                 <div className='text-[14px] w-[150px]  py-4 bg-[#fb8c00] text-center text-white font-bold cursor-pointer'>Call Aishwary</div>
                 <div className='text-[14px] w-[150px]  py-4 bg-[#fb8c00] text-center text-white font-bold cursor-pointer'>Pay off</div>
