@@ -3,7 +3,7 @@ import ServiceDetailCard from '../utils/ServiceDetailCard'
 
 const LocalAssistance = () => {
     return (
-        <div className='px-16 pt-16'>
+        <div className=''>
             <div>
                 <ServiceDetailCard />
             </div>

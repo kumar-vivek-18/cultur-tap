@@ -8,12 +8,12 @@ const Navbar = () => {
     const [query, setQuery] = useState("");
 
     return (
-        <div className='w-full px-16'>
+        <div className='w-full px-16 max-md:px-8'>
             <div className='flex w-full justify-between items-center '>
                 <div>
                     <img src={logo} alt="culturTap" className='w-[316px] h-[100px]' loading='lazy' />
                 </div>
-                <div className='flex w-1/3 h-[60px] items-center border border-gray-300 rounded-3xl px-8 text-[#2e2c43] text-[20px] shadow-sma'>
+                <div className='flex w-1/3 h-[60px] items-center border border-gray-300 rounded-3xl px-8 text-[#2e2c43] text-[20px] shadow-sm max-lg:hidden'>
                     <LuSearch className='scale-125 color-[2e2c43] opacity-70' />
                     <input
                         type="text"
