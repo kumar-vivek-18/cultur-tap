@@ -102,3 +102,11 @@ body {
   background-color: rgb(167, 162, 162);
   /* Set the color of the scrollbar thumb */
 }
+
+
+.scrollbar-hidden {
+
+  scrollbar-width: none !important;
+
+
+}
