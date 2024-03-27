@@ -11,7 +11,7 @@ const Navbar = () => {
         <div className='w-full max-sm:px-0 px-16 max-md:px-8'>
             <div className='flex w-full justify-between items-center '>
                 <div>
-                    <img src={logo} alt="culturTap" className='w-[316px] h-[100px] max-sm:scale-75' loading='lazy' />
+                    <img src={logo} alt="culturTap" className='w-[316px] h-[100px] max-sm:w-[220px] max-sm:h-[80px]' loading='lazy' />
                 </div>
                 <div className='flex w-1/3 h-[60px] items-center border border-gray-300 rounded-3xl px-8 text-[#2e2c43] text-[20px] shadow-sm max-lg:hidden'>
                     <LuSearch className='scale-125 color-[2e2c43] opacity-70' />
