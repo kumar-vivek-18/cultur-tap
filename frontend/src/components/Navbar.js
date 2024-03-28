@@ -29,7 +29,7 @@ const Navbar = () => {
                 </div>
 
             </div>
-            <div className='flex max-sm:px-4 overflow-x-scroll scrollbar-hidden gap-4 pt-[30px] max-md:text-[14px] text-[16px]'>
+            <div className='flex max-sm:px-4 overflow-x-scroll scrollbar-hidden gap-4 pt-[30px]  text-[16px]'>
                 <div className='flex items-center gap-2 w-[max-content]'>
                     <Link to='/' className=' font-semibold w-[max-content]'>Trip Planning Call</Link>
                     <p className='w-[24px] h-[24px] text-white flex justify-center items-center bg-[#faa02e] rounded-full'>0</p>
