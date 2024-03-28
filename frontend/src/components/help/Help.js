@@ -1,9 +1,11 @@
 import React from 'react'
+import HelpCard from '../utils/HelpCard'
 
 const Help = () => {
     return (
-        <div>
-            Help
+        <div className='flex justify-center pt-16'>
+
+            <HelpCard />
 
         </div>
 

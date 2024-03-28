@@ -124,11 +124,11 @@ const ServiceCard = () => {
                             <div className='w-[250px] h-[70px] bg-[#e9eaeb] rounded-md'></div>
                         </div>
 
-                        <div className='flex max-xl:gap-24 max-lg:gap-12 gap-6'>
+                        <div className='flex max-xl:gap-24 max-lg:gap-12 gap-6 max-xl:flex-col max-sm:flex-row'>
 
 
                             <div className='text-[12px]  max-xl:text-[16px]'>
-                                <p className='font-semibold'>Payment <br />to requestee</p>
+                                <p className='font-semibold w-[max-content]'>Payment <br />to requestee</p>
                                 <div className='flex gap-2 items-center pt-4'>
                                     <label className="checkbox-container">
                                         <p className='text-[14px]'>Aishwary</p>
@@ -139,7 +139,7 @@ const ServiceCard = () => {
                             </div>
 
                             <div className='text-[12px]  max-xl:text-[16px]'>
-                                <p className='font-semibold'>Payment <br />Service Provider</p>
+                                <p className='font-semibold w-[max-content]'>Payment <br /><span className='w-[max-content]'>Service Provider</span></p>
                                 <div className='flex gap-2 items-center pt-4'>
                                     <label className="checkbox-container">
                                         <p className='text-[14px]'>Hemant</p>
@@ -154,14 +154,14 @@ const ServiceCard = () => {
                     </div>
                 </div>
 
-                <div className='pt-[30px] max-xl:px-20 max-lg:px-8 max-sm:px-0 flex flex-col max-sm:pl-6'>
+                <div className='pt-[30px] max-xl:px-20 max-lg:px-8 max-sm:px-0 flex flex-col max-sm:pl-6 px-4'>
                     <p className='font-bold text-[2e2c43] max-xl:text-[18px] text-[14px] text-left'>Customer Chat</p>
                     <div className='w-full max-sm:w-11/12 h-[400px] bg-[#e9eaeb] rounded-lg mt-4 px-6 py-4 overflow-y-scroll scrollable-content'>
 
                     </div>
                 </div>
 
-                <div className='pt-[30px] max-xl:px-20 max-lg:px-8 max-sm:px-0 max-sm:pl-6'>
+                <div className='pt-[30px] max-xl:px-20 max-lg:px-8 max-sm:px-0 max-sm:pl-6 px-4'>
                     <p className='font-bold text-[2e2c43] max-xl:text-[18px]  text-[14px]'>Service Comment</p>
                     <input
                         type='text'

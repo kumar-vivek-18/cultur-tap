@@ -115,9 +115,9 @@ const ServiceCard = () => {
                 <div className='text-[12px] max-sm:text-[16px]'>
                     <p className=''>Service Requestee</p>
                     <p className=' font-semibold pb-[10px]'>Wanna say something to Culturtap?</p>
-                    <div className='w-[250px] h-[70px] bg-[#e9eaeb] rounded-md'></div>
+                    <div className='w-[230px] max-sm:w-[270px] h-[70px] bg-[#e9eaeb] rounded-md'></div>
                     <p className=' font-semibold pt-[20px] pb-[10px]'>Additional Feedback</p>
-                    <div className='w-[250px] h-[70px] bg-[#e9eaeb] rounded-md'></div>
+                    <div className='w-[230px] h-[70px] max-sm:w-[270px] bg-[#e9eaeb] rounded-md'></div>
                 </div>
 
                 <div className='flex max-xl:gap-24 max-sm:gap-6 max-lg:gap-12 gap-10'>
@@ -135,7 +135,7 @@ const ServiceCard = () => {
                     </div>
 
                     <div className='text-[12px] max-sm:text-[14px]'>
-                        <p className='font-semibold'>Payment <br />Service Provider</p>
+                        <p className='font-semibold w-[max-content]'>Payment <br />Service Provider</p>
                         <div className='flex gap-2 items-center pt-4'>
                             <label className="checkbox-container">
                                 <p className='text-[14px] max-sm:text-[16px]'>Hemant</p>
@@ -146,7 +146,7 @@ const ServiceCard = () => {
                         </div>
                     </div>
                 </div>
-                <div className='text-[14px] max-sm:text-[16px] text-[#fb8c00] font-semibold cursor-pointer'>View All</div>
+                <div className='text-[14px] w-[max-content] max-sm:text-[16px] text-[#fb8c00] font-semibold cursor-pointer'>View All</div>
             </div>
         </div>
 
