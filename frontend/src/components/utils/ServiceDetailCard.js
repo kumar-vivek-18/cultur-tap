@@ -13,7 +13,7 @@ import '../../index.css';
 const ServiceCard = () => {
     return (
         <div>
-            <div className='shadow-lg  py-10 rounded-3xl w-[max-content] border-2 max-sm:mx-4 mx-auto'>
+            <div className='shadow-lg  py-10 rounded-3xl w-[max-content] border-2 '>
 
                 <div className='flex max-xl:flex-col gap-4 max-sm:pl-8 max-xl:gap-16 max-sm:px-4 max-md:px-6 px-4 py-10 max-xl:px-20 max-lg:px-8 w-[max-content]  '>
                     <div className='flex gap-8 max-xl:gap-24 max-lg:gap-12 max-md:flex-col'>
