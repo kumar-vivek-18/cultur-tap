@@ -154,9 +154,9 @@ const ServiceCard = () => {
                     </div>
                 </div>
 
-                <div className='pt-[30px] max-xl:px-20 max-lg:px-8 max-sm:px-0'>
+                <div className='pt-[30px] max-xl:px-20 max-lg:px-8 max-sm:px-0 flex flex-col justify-center'>
                     <p className='font-bold text-[2e2c43] max-xl:text-[18px] text-[14px]'>Customer Chat</p>
-                    <div className='w-full h-[400px] bg-[#e9eaeb] rounded-lg mt-4 px-6 py-4 overflow-y-scroll scrollable-content'>
+                    <div className='w-11/12 h-[400px] bg-[#e9eaeb] rounded-lg mt-4 px-6 py-4 overflow-y-scroll scrollable-content'>
 
                     </div>
                 </div>
@@ -166,7 +166,7 @@ const ServiceCard = () => {
                     <input
                         type='text'
                         placeholder='Type here...'
-                        className='w-full h-[70px] px-4 bg-[#e9eaeb] rounded-lg mt-4 focus:outline-none' />
+                        className='w-11/12 h-[70px] px-4 bg-[#e9eaeb] rounded-lg mt-4 focus:outline-none' />
 
                 </div>
             </div>
