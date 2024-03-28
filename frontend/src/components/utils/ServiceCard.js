@@ -123,7 +123,7 @@ const ServiceCard = () => {
                 <div className='flex max-xl:gap-24 max-lg:gap-12 gap-10'>
 
 
-                    <div className='text-[12px] max-sm:text-[16px]'>
+                    <div className='text-[12px] max-sm:text-[14px]'>
                         <p className='font-semibold'>Payment <br />to requestee</p>
                         <div className='flex gap-2 items-center pt-4'>
                             <label className="checkbox-container">
@@ -134,7 +134,7 @@ const ServiceCard = () => {
                         </div>
                     </div>
 
-                    <div className='text-[12px] max-sm:text-[16px]'>
+                    <div className='text-[12px] max-sm:text-[14px]'>
                         <p className='font-semibold'>Payment <br />Service Provider</p>
                         <div className='flex gap-2 items-center pt-4'>
                             <label className="checkbox-container">
