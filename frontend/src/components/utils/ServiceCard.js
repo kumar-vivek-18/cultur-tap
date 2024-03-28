@@ -120,7 +120,7 @@ const ServiceCard = () => {
                     <div className='w-[250px] h-[70px] bg-[#e9eaeb] rounded-md'></div>
                 </div>
 
-                <div className='flex max-xl:gap-24 max-sm:gap-8 max-lg:gap-12 gap-10'>
+                <div className='flex max-xl:gap-24 max-sm:gap-6 max-lg:gap-12 gap-10'>
 
 
                     <div className='text-[12px] max-sm:text-[14px]'>
