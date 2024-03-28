@@ -8,7 +8,7 @@ const Navbar = () => {
     const [query, setQuery] = useState("");
 
     return (
-        <div className='w-full max-sm:px-0 px-16 max-md:px-8'>
+        <div className='w-full max-sm:px-0 px-16 max-md:px-8 '>
             <div className='flex w-full justify-between items-center '>
                 <div>
                     <img src={logo} alt="culturTap" className='w-[316px] h-[100px] max-sm:w-[220px] max-sm:h-[80px]' loading='lazy' />

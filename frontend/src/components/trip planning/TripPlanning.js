@@ -3,8 +3,8 @@ import ServiceCard from '../utils/ServiceCard'
 
 const TripPlanning = () => {
     return (
-        <div className='max-md:px-4 max-md:py-8 px-16 pt-16'>
-            <div className='flex justify-center'>
+        <div className='max-md:px-4 max-md:py-8 px-16 pt-16 mx-auto'>
+            <div className='mx-auto'>
                 <ServiceCard />
             </div>
         </div>
