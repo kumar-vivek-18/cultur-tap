@@ -15,15 +15,15 @@ const ServiceCard = () => {
         <div>
             <div className='shadow-lg px-4 py-10 rounded-3xl w-[max-content]   border-2'>
 
-                <div className='flex max-xl:flex-col gap-4 max-xl:gap-16 max-sm:px-4 max-md:px-6 px-4 py-10 max-xl:px-20 max-lg:px-8 w-[max-content]  '>
+                <div className='flex max-xl:flex-col gap-4 max-sm:pl-10 max-xl:gap-16 max-sm:px-4 max-md:px-6 px-4 py-10 max-xl:px-20 max-lg:px-8 w-[max-content]  '>
                     <div className='flex gap-8 max-xl:gap-24 max-lg:gap-12 max-md:flex-col'>
 
 
                         <div className='flex flex-col'>
 
                             <div>
-                                <p className='text-[14px] max-xl:text-[16px] font-semibold text-[#001b33]'>Service ID</p>
-                                <p className='text-[14px] max-xl:text-[16px] text-[#001b33]'>123456789</p>
+                                <p className='text-[14px] max-xl:text-[18px] font-semibold text-[#001b33]'>Service ID</p>
+                                <p className='text-[14px] max-xl:text-[18px] text-[#001b33]'>123456789</p>
                             </div>
                             <div className='flex gap-4 pt-[30px] items-center'>
                                 <LuUserCircle className='w-[35px] h-[35px] opacity-60' />
@@ -31,14 +31,14 @@ const ServiceCard = () => {
                                 <LuUserCircle className='w-[35px] h-[35px] opacity-60' />
                             </div>
 
-                            <p className='pt-[25px] text-[12px] max-xl:text-[14px] text-[#2e2c43] '>Service Provider - Hemant</p>
-                            <p className='text-[12px] max-xl:text-[14px] font-semibold text-[#001b33]'>+91 9148768851</p>
-                            <p className='pt-[10px] text-[12px] max-xl:text-[14px] text-[#2e2c43] '>Service Provider - Aishwary</p>
-                            <p className='text-[12px] max-xl:text-[14px] font-semibold text-[#001b33]' >+91 9148768851</p>
+                            <p className='pt-[25px] text-[12px] max-xl:text-[16px] text-[#2e2c43] '>Service Provider - Hemant</p>
+                            <p className='text-[12px] max-xl:text-[16px] font-semibold text-[#001b33]'>+91 9148768851</p>
+                            <p className='pt-[10px] text-[12px] max-xl:text-[16px] text-[#2e2c43] '>Service Provider - Aishwary</p>
+                            <p className='text-[12px] max-xl:text-[16px] font-semibold text-[#001b33]' >+91 9148768851</p>
                         </div>
 
 
-                        <div className='flex flex-col max-xl:text-[14px] text-[12px] '>
+                        <div className='flex flex-col max-xl:text-[16px] text-[12px] '>
                             <p className='text-[#001b33]font-semibold'>Trip planning Call with</p>
                             <div className='flex gap-2 pt-[10px]'>
                                 <IoTimeOutline className='w-[20px] h-[20px] opacity-80' />
@@ -85,8 +85,8 @@ const ServiceCard = () => {
                         </div>
 
                         <div className=''>
-                            <p className='text-[12px] max-xl:text-[14px] text-[#2e2c43] font-semibold'>Rate Your Experience</p>
-                            <p className='text-[11px] max-xl:text-[13px]'>Service Provider</p>
+                            <p className='text-[12px] max-xl:text-[16px] text-[#2e2c43] font-semibold'>Rate Your Experience</p>
+                            <p className='text-[11px] max-xl:text-[14px]'>Service Provider</p>
                             <div className='flex pt-[10px]'>
                                 <img src={starFilled} alt="score" />
                                 <img src={starFilled} alt="score" />
@@ -95,8 +95,8 @@ const ServiceCard = () => {
                                 <img src={star} alt="score" />
                             </div>
 
-                            <p className='text-[12px] max-xl:text-[14px] text-[#2e2c43] font-semibold pt-[30px]'>Rate Your Experience</p>
-                            <p className='text-[11px] max-xl:text-[13px]'>Service Requestee</p>
+                            <p className='text-[12px] max-xl:text-[16px] text-[#2e2c43] font-semibold pt-[30px]'>Rate Your Experience</p>
+                            <p className='text-[11px] max-xl:text-[14px]'>Service Requestee</p>
                             <div className='flex pt-[10px]'>
                                 <img src={starFilled} alt="score" />
                                 <img src={starFilled} alt="score" />
@@ -108,7 +108,7 @@ const ServiceCard = () => {
                     </div>
 
                     <div className='flex gap-8 max-xl:gap-24 max-lg:gap-12 max-md:flex-col'>
-                        <div className='text-[12px] max-xl:text-[14px]'>
+                        <div className='text-[12px] max-xl:text-[16px]'>
                             <p className=''>Service Requestee</p>
                             <p className=' font-semibold pb-[10px]'>Wanna say something to Culturtap?</p>
                             <div className='w-[250px] h-[70px] bg-[#e9eaeb] rounded-md'></div>
@@ -116,7 +116,7 @@ const ServiceCard = () => {
                             <div className='w-[250px] h-[70px] bg-[#e9eaeb] rounded-md'></div>
                         </div>
 
-                        <div className='text-[12px] max-xl:text-[14px]'>
+                        <div className='text-[12px] max-xl:text-[16px]'>
                             <p className=''>Service Requestee</p>
                             <p className=' font-semibold pb-[10px]'>Wanna say something to Culturtap?</p>
                             <div className='w-[250px] h-[70px] bg-[#e9eaeb] rounded-md'></div>
@@ -127,7 +127,7 @@ const ServiceCard = () => {
                         <div className='flex max-xl:gap-24 max-lg:gap-12 gap-6'>
 
 
-                            <div className='text-[12px]  max-xl:text-[14px]'>
+                            <div className='text-[12px]  max-xl:text-[16px]'>
                                 <p className='font-semibold'>Payment <br />to requestee</p>
                                 <div className='flex gap-2 items-center pt-4'>
                                     <label className="checkbox-container">
@@ -138,7 +138,7 @@ const ServiceCard = () => {
                                 </div>
                             </div>
 
-                            <div className='text-[12px]  max-xl:text-[14px]'>
+                            <div className='text-[12px]  max-xl:text-[16px]'>
                                 <p className='font-semibold'>Payment <br />Service Provider</p>
                                 <div className='flex gap-2 items-center pt-4'>
                                     <label className="checkbox-container">
@@ -155,14 +155,14 @@ const ServiceCard = () => {
                 </div>
 
                 <div className='pt-[30px] max-xl:px-20 max-lg:px-8 max-sm:px-0'>
-                    <p className='font-bold text-[2e2c43] max-xl:text-[16px] text-[14px]'>Customer Chat</p>
+                    <p className='font-bold text-[2e2c43] max-xl:text-[18px] text-[14px]'>Customer Chat</p>
                     <div className='w-full h-[400px] bg-[#e9eaeb] rounded-lg mt-4 px-6 py-4 overflow-y-scroll scrollable-content'>
 
                     </div>
                 </div>
 
                 <div className='pt-[30px] max-xl:px-20 max-lg:px-8 max-sm:px-0'>
-                    <p className='font-bold text-[2e2c43] max-xl:text-[16px]  text-[14px]'>Service Comment</p>
+                    <p className='font-bold text-[2e2c43] max-xl:text-[18px]  text-[14px]'>Service Comment</p>
                     <input
                         type='text'
                         placeholder='Type here...'
@@ -172,9 +172,9 @@ const ServiceCard = () => {
             </div>
 
             <div className='flex gap-4 justify-end my-8 max-md:flex-col max-md:items-center'>
-                <div className='text-[14px] max-xl:text-[16px]  w-[150px]  py-4 bg-[#fb8c00] text-center text-white font-bold cursor-pointer'>Call Hemanth</div>
-                <div className='text-[14px] max-xl:text-[16px]  w-[150px]  py-4 bg-[#fb8c00] text-center text-white font-bold cursor-pointer'>Call Aishwary</div>
-                <div className='text-[14px] max-xl:text-[16px]  w-[150px]  py-4 bg-[#fb8c00] text-center text-white font-bold cursor-pointer'>Pay off</div>
+                <div className='text-[14px] max-xl:text-[18px]  w-[150px]  py-4 bg-[#fb8c00] text-center text-white font-bold cursor-pointer'>Call Hemanth</div>
+                <div className='text-[14px] max-xl:text-[18px]  w-[150px]  py-4 bg-[#fb8c00] text-center text-white font-bold cursor-pointer'>Call Aishwary</div>
+                <div className='text-[14px] max-xl:text-[18px]  w-[150px]  py-4 bg-[#fb8c00] text-center text-white font-bold cursor-pointer'>Pay off</div>
             </div>
 
         </div>
