@@ -13,7 +13,7 @@ import '../../index.css';
 const ServiceCard = () => {
     return (
 
-        <div className='flex max-xl:flex-col gap-6 max-xl:gap-16 max-md:px-6 px-10 py-10 max-xl:px-20 max-lg:px-8 border-2 rounded-3xl w-[max-content]  shadow-lg'>
+        <div className='flex max-xl:flex-col gap-6 max-xl:gap-16 max-md:px-6 px-10 py-10 max-xl:px-20 max-lg:px-8 border-2 rounded-3xl w-[max-content]  shadow-lg mx-auto'>
             <div className='flex gap-8 max-xl:gap-24 max-lg:gap-12 max-md:flex-col'>
                 <div className='relative flex'>
                     <div className='pt-20 '>
@@ -127,7 +127,7 @@ const ServiceCard = () => {
                         <p className='font-semibold'>Payment <br />to requestee</p>
                         <div className='flex gap-2 items-center pt-4'>
                             <label className="checkbox-container">
-                                <p className='text-[14px]'>Aishwary</p>
+                                <p className='text-[14px] max-sm:text-[16px]'>Aishwary</p>
                                 <input type="checkbox" />
                                 <span className="checkmark"></span>
                             </label>
@@ -138,7 +138,7 @@ const ServiceCard = () => {
                         <p className='font-semibold'>Payment <br />Service Provider</p>
                         <div className='flex gap-2 items-center pt-4'>
                             <label className="checkbox-container">
-                                <p className='text-[14px]'>Hemant</p>
+                                <p className='text-[14px] max-sm:text-[16px]'>Hemant</p>
 
                                 <input type="checkbox" />
                                 <span className="checkmark"></span>
