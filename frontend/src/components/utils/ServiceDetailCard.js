@@ -13,7 +13,7 @@ import '../../index.css';
 const ServiceCard = () => {
     return (
         <div>
-            <div className='shadow-lg px-4 py-10 rounded-3xl w-[max-content]   border-2'>
+            <div className='shadow-lg px-4 py-10 rounded-3xl w-[max-content] border-2 max-sm:mx-6 '>
 
                 <div className='flex max-xl:flex-col gap-4 max-sm:pl-8 max-xl:gap-16 max-sm:px-4 max-md:px-6 px-4 py-10 max-xl:px-20 max-lg:px-8 w-[max-content]  '>
                     <div className='flex gap-8 max-xl:gap-24 max-lg:gap-12 max-md:flex-col'>
@@ -154,14 +154,14 @@ const ServiceCard = () => {
                     </div>
                 </div>
 
-                <div className='pt-[30px] max-xl:px-20 max-lg:px-8 max-sm:px-0 flex flex-col max-sm:pl-4'>
+                <div className='pt-[30px] max-xl:px-20 max-lg:px-8 max-sm:px-0 flex flex-col max-sm:pl-6'>
                     <p className='font-bold text-[2e2c43] max-xl:text-[18px] text-[14px] text-left'>Customer Chat</p>
                     <div className='w-full max-sm:w-11/12 h-[400px] bg-[#e9eaeb] rounded-lg mt-4 px-6 py-4 overflow-y-scroll scrollable-content'>
 
                     </div>
                 </div>
 
-                <div className='pt-[30px] max-xl:px-20 max-lg:px-8 max-sm:px-0 max-sm:pl-4'>
+                <div className='pt-[30px] max-xl:px-20 max-lg:px-8 max-sm:px-0 max-sm:pl-6'>
                     <p className='font-bold text-[2e2c43] max-xl:text-[18px]  text-[14px]'>Service Comment</p>
                     <input
                         type='text'
