@@ -4,8 +4,8 @@ import '../../index.css';
 
 const HelpDetailCard = () => {
     return (
-        <div>
-            <div className='flex text-[18px] gap-10 flex-col w-[max-content] shadow-md border-2 px-20 max-xl:px-12 py-20 rounded-3xl mx-6 pb-40'>
+        <div className='mx-auto w-max-content overflow-hidden'>
+            <div className='flex text-[18px] gap-10 flex-col w-[max-content] max-md:items-center shadow-md border-2 px-20 max-xl:px-12 py-20 rounded-3xl mx-6 pb-40'>
                 <div className='flex flex-col gap-10 max-md:gap-6'>
                     <div className='flex gap-20 items-center max-xl:gap-12 max-md:gap-6 max-md:flex-col'>
                         <div className='max-md:flex max-md:flex-col max-md:items-center'>
@@ -34,7 +34,7 @@ const HelpDetailCard = () => {
                         </div>
 
                     </div>
-                    <div className='flex gap-32 max-xl:gap-24 max-md:gap-6 max-md:flex-col items-center'>
+                    <div className='flex gap-32 max-xl:gap-24 max-md:gap-6 max-md:flex-col '>
 
 
                         <div className='max-md:flex max-md:flex-col max-md:items-center'>
@@ -43,7 +43,7 @@ const HelpDetailCard = () => {
                         </div>
                         <div className='max-md:flex max-md:flex-col max-md:items-center'>
                             <p className='font-semibold'>Help Request</p>
-                            <p className='max-md:w-10/12 md:w-3/4 max-md:text-center'>I avail trip planning service yesterday, I was not able to connect with the trip planner. </p>
+                            <p className='max-md:w-8/12 md:w-3/4 max-md:text-center'>I avail trip planning service yesterday, I was not able to connect with the trip planner. </p>
                         </div>
                     </div>
 
@@ -68,7 +68,7 @@ const HelpDetailCard = () => {
                 </div>
 
             </div>
-            <div className='flex gap-4 mt-4 mb-10 justify-end px-10 max-xl:px-12 max-md '>
+            <div className='flex gap-4 mt-4 mb-10 justify-end px-10 max-xl:px-12 w-full max-md:justify-center'>
                 <p className='w-[180px] py-4 bg-[#fb8c00] text-center font-bold text-white'>Call Aishwary</p>
                 <p className='w-[180px] py-4 bg-[#fb8c00] text-center font-bold text-white'>Pay off</p>
             </div>

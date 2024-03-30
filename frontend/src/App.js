@@ -8,7 +8,7 @@ import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className=''>
+    <div className='w-[max-content] mx-auto'>
       <Navbar />
 
       <Routes>
