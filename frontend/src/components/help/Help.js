@@ -26,7 +26,7 @@ const Help = () => {
         paymentTo: "Rohit"
     }]
     return (
-        <div className='flex flex-col gap-10 items-center pt-8 mb-16 '>
+        <div className='flex flex-col gap-10 items-center pt-8 mb-16 max-sm:w-[380px] '>
 
             {
                 services.map((service) => {

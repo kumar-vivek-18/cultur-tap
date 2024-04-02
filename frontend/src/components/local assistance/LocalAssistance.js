@@ -49,7 +49,7 @@ const LocalAssistance = () => {
     }];
     return (
         <div className='max-md:px-4 max-md:py-8 px-16 pt-16 mx-auto pb-16'>
-            <div className='flex flex-col gap-10 justify-center'>
+            <div className='flex flex-col gap-10 justify-center '>
                 {services.map((service) => {
                     return <ServiceCard service={service} key={service.serviceID} />
                 })}
