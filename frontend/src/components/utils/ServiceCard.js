@@ -56,9 +56,9 @@ const ServiceCard = ({ service }) => {
                         </div>
 
                         <p className='pt-[25px] text-[12px]  max-sm:text-[16px] text-[#2e2c43] '>Service Provider - {service.serviceProviderName}</p>
-                        <p className='text-[12px] max-sm:text-[16px] font-semibold text-[#001b33]  overflow-scroll scrollbar-hidden'>{service.serviceProviderContact}</p>
+                        <p className='text-[12px] max-sm:text-[16px] font-semibold text-[#001b33] '>{service.serviceProviderContact}</p>
                         <p className='pt-[10px] text-[12px] max-sm:text-[16px] text-[#2e2c43] '>Service Requestee - {service.serviceRequesteeName}</p>
-                        <p className='text-[12px] max-sm:text-[16px] font-semibold text-[#001b33]  overflow-scroll scrollbar-hidden' >{service.serviceRequesteeContact}</p>
+                        <p className='text-[12px] max-sm:text-[16px] font-semibold text-[#001b33]  ' >{service.serviceRequesteeContact}</p>
                     </div>
                 </div>
 
@@ -141,9 +141,9 @@ const ServiceCard = ({ service }) => {
                 <div className='text-[12px] max-sm:text-[16px]'>
                     <p className=''>Service Requestee</p>
                     <p className=' font-semibold pb-[10px]'>Wanna say something to Culturtap?</p>
-                    <div className='w-[230px] max-sm:w-[270px] h-[70px] px-2 py-1 bg-[#e9eaeb] rounded-md'>{service.serviceRequesteeToCulturtap}</div>
+                    <div className='w-[230px] max-sm:w-[270px] h-[70px] px-2 py-1 bg-[#e9eaeb] rounded-md overflow-scroll scrollbar-hidden'>{service.serviceRequesteeToCulturtap}</div>
                     <p className=' font-semibold pt-[20px] pb-[10px]'>Additional Feedback</p>
-                    <div className='w-[230px] h-[70px] max-sm:w-[270px] px-2 py-1 bg-[#e9eaeb] rounded-md'>{service.serviceRequesteeFeedback}</div>
+                    <div className='w-[230px] h-[70px] max-sm:w-[270px] px-2 py-1 bg-[#e9eaeb] rounded-md overflow-scroll scrollbar-hidden'>{service.serviceRequesteeFeedback}</div>
                 </div>
 
                 <div className='flex max-xl:gap-24 max-sm:gap-6 max-lg:gap-12 gap-10'>
