@@ -24,7 +24,8 @@ const ServiceDetailCard = () => {
     // }, []);
 
     const [paymentTo, setPaymentTo] = useState(service.paymentTo);
-
+    const [providerRating, setProviderRating] = useState(parseInt(service.tripServiceProviderRating));
+    const [requesteeRating, setRequesteeRating] = useState(parseInt(service.tripServiceRequesteeRating));
 
     const handlePaymentTo = () => {
         console.log('pay', service.paymentTo);
@@ -115,21 +116,23 @@ const ServiceDetailCard = () => {
                                 <p className='text-[12px] max-xl:text-[16px] text-[#2e2c43] font-semibold'>Rate Your Experience</p>
                                 <p className='text-[11px] max-xl:text-[14px]'>Service Provider</p>
                                 <div className='flex pt-[10px]'>
-                                    <img src={starFilled} alt="score" />
-                                    <img src={starFilled} alt="score" />
-                                    <img src={starFilled} alt="score" />
-                                    <img src={star} alt="score" />
-                                    <img src={star} alt="score" />
+                                    {[...Array(providerRating)].map((_, index) => (
+                                        <img key={`filled-star-${index}`} src={starFilled} alt="score" />
+                                    ))}
+                                    {[...Array(5 - providerRating)].map((_, index) => (
+                                        <img key={`empty-star-${index}`} src={star} alt="score" />
+                                    ))}
                                 </div>
 
                                 <p className='text-[12px] max-xl:text-[16px] text-[#2e2c43] font-semibold pt-[30px]'>Rate Your Experience</p>
                                 <p className='text-[11px] max-xl:text-[14px]'>Service Requestee</p>
                                 <div className='flex pt-[10px]'>
-                                    <img src={starFilled} alt="score" />
-                                    <img src={starFilled} alt="score" />
-                                    <img src={starFilled} alt="score" />
-                                    <img src={star} alt="score" />
-                                    <img src={star} alt="score" />
+                                    {[...Array(requesteeRating)].map((_, index) => (
+                                        <img key={`filled-star-${index}`} src={starFilled} alt="score" />
+                                    ))}
+                                    {[...Array(5 - requesteeRating)].map((_, index) => (
+                                        <img key={`empty-star-${index}`} src={star} alt="score" />
+                                    ))}
                                 </div>
                             </div>
                         </div>
