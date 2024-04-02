@@ -39,7 +39,7 @@ const ServiceDetailCard = () => {
         console.log('payRo', service.paymentTo);
     }
     return (
-        <div className='flex justify-center mx-auto mt-16 xl:w-[1350px]'>
+        <div className='flex justify-center mx-auto mt-10 xl:w-[1350px] max-sm:w-[350px]'>
             <div className=''>
                 <div className='shadow-lg  py-10 rounded-3xl w-[max-content] border-2 px-8'>
 
