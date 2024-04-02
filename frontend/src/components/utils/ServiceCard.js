@@ -31,7 +31,7 @@ const ServiceCard = ({ service }) => {
 
     return (
 
-        <div className='flex max-xl:flex-col gap-6 max-xl:gap-16 max-md:px-6 px-10 py-10 max-xl:px-20 max-lg:px-8 border-2 rounded-3xl xl:w-[1350px] lg:[1200px]  shadow-lg mx-auto'>
+        <div className='flex max-xl:flex-col gap-6 max-xl:gap-16 max-md:px-6 px-10 py-10 max-xl:px-20 max-lg:px-8 border-2 rounded-3xl xl:w-[1350px] lg:[1200px] max-md:w-[350px]  shadow-lg mx-auto'>
             <div className='flex gap-8 max-xl:gap-24 max-lg:gap-12 max-md:flex-col'>
                 <div className='relative flex'>
                     <div className='pt-20 '>
