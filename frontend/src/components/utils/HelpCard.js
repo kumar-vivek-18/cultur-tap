@@ -47,7 +47,7 @@ const HelpCard = ({ service }) => {
                     </div>
                     <div className='max-md:flex max-md:flex-col '>
                         <p className='font-semibold'>Help Request</p>
-                        <p className=' max-md:w-[320px]'>{service.helpRequest}</p>
+                        <p className=' max-md:w-[320px] md:w-3/4'>{service.helpRequest}</p>
                     </div>
                 </div>
 
