@@ -47,15 +47,15 @@ const Navbar = () => {
                     :
                     <div className='flex max-sm:px-4 overflow-x-scroll scrollbar-hidden gap-4 pt-[30px]  text-[16px]'>
                         <div className='flex items-center gap-2 w-[max-content] font-semibold'>
-                            <Link to='/' className={`${currPage === '/' ? "border-black border-b-4" : ""}`}>Trip Planning Call</Link>
+                            <Link to='/' className={`${currPage === '/' ? "border-black border-b-4 w-[max-content]" : "w-[max-content]"}`}>Trip Planning Call</Link>
                             <p className='w-[24px] h-[24px] text-white flex justify-center items-center bg-[#faa02e] rounded-full'>0</p>
                         </div>
                         <div className='flex items-center gap-2 w-[max-content] font-semibold '>
-                            <Link to='/localassistance' className={`${currPage === '/localassistance' ? "border-black border-b-4" : ""}`}>Local Assistance</Link>
+                            <Link to='/localassistance' className={`${currPage === '/localassistance' ? "border-black border-b-4 w-[max-content]" : " w-[max-content]"}`}>Local Assistance</Link>
                             <p className='w-[24px] h-[24px] text-white flex justify-center items-center bg-[#faa02e] rounded-full'>0</p>
                         </div>
                         <div className='flex items-center gap-2 w-[max-content] font-semibold'>
-                            <Link to='/help' className={`${currPage === '/help' ? "border-black border-b-4" : ""}`}>Help</Link>
+                            <Link to='/help' className={`${currPage === '/help' ? "border-black border-b-4 w-[max-content]" : " w-[max-content]"}`}>Help</Link>
                             <p className='w-[24px] h-[24px] text-white flex justify-center items-center bg-[#faa02e] rounded-full'>0</p>
                         </div>
                     </div>

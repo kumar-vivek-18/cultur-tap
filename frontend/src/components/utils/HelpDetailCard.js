@@ -10,31 +10,31 @@ const HelpDetailCard = () => {
     console.log('serve', service)
 
     return (
-        <div className='mx-auto pt-16 w-[1400px]  '>
-            <div className='flex text-[18px] gap-10 flex-col w-full  max-md:items-center shadow-md border-2 px-20 max-xl:px-12 py-20 rounded-3xl mx-6 pb-40'>
+        <div className='mx-auto  pt-16 xl:w-[1400px]  max-md:w-[350px]'>
+            <div className='mx-auto flex text-[18px] gap-10 flex-col w-full shadow-md border-2 px-20 max-xl:px-10 py-20 rounded-3xl mx-6 pb-40'>
                 <div className='flex flex-col gap-10 max-md:gap-6'>
-                    <div className='flex gap-12 items-center max-xl:gap-12 max-md:gap-6 max-md:flex-col'>
-                        <div className='max-md:flex max-md:flex-col max-md:items-center'>
+                    <div className='flex gap-12  max-xl:gap-12 max-md:gap-6 max-md:flex-col'>
+                        <div className='max-md:flex max-md:flex-col '>
                             <p className='font-semibold'>User ID</p>
                             <p>{service.userID}</p>
                         </div>
-                        <div className='max-md:flex max-md:flex-col max-md:items-center'>
+                        <div className='max-md:flex max-md:flex-col '>
                             <p className='font-semibold'>Username</p>
                             <p>{service.userName}</p>
                         </div>
-                        <div className='max-md:flex max-md:flex-col max-md:items-center'>
+                        <div className='max-md:flex max-md:flex-col '>
                             <p className='font-semibold'>Time</p>
                             <p>{service.time}</p>
                         </div>
-                        <div className='max-md:flex max-md:flex-col max-md:items-center'>
+                        <div className='max-md:flex max-md:flex-col '>
                             <p className='font-semibold'>Date</p>
                             <p>{service.date}</p>
                         </div>
-                        <div className='max-md:flex max-md:flex-col max-md:items-center '>
+                        <div className='max-md:flex max-md:flex-col  '>
                             <p className='font-semibold'>Email</p>
                             <p>{service.email}</p>
                         </div>
-                        <div className='max-md:flex max-md:flex-col max-md:items-center'>
+                        <div className='max-md:flex max-md:flex-col '>
                             <p className='font-semibold w-[max-content]'>Contact number</p>
                             <p>{service.contactNumber}</p>
                         </div>
@@ -43,13 +43,13 @@ const HelpDetailCard = () => {
                     <div className='flex gap-24 max-xl:gap-24 max-md:gap-6 max-md:flex-col '>
 
 
-                        <div className='max-md:flex max-md:flex-col max-md:items-center'>
+                        <div className='max-md:flex max-md:flex-col '>
                             <p className='font-semibold'>Platform</p>
                             <p>{service.platform}</p>
                         </div>
-                        <div className='max-md:flex max-md:flex-col max-md:items-center'>
+                        <div className='max-md:flex max-md:flex-col '>
                             <p className='font-semibold'>Help Request</p>
-                            <p className='max-md:w-8/12 md:w-3/4 max-md:text-center'>{service.helpRequest} </p>
+                            <p className=' md:w-3/4 '>{service.helpRequest} </p>
                         </div>
                     </div>
 
