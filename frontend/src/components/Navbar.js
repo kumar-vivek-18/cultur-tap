@@ -1,11 +1,21 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import logo from '../assets/culturTapLogo.svg';
 import { LuSearch } from "react-icons/lu";
 import settings from '../assets/settings.svg';
-import { Link } from 'react-router-dom';
-
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { FaChevronLeft } from "react-icons/fa";
 const Navbar = () => {
+
     const [query, setQuery] = useState("");
+    const [currPage, setCurrPage] = useState("");
+    const location = useLocation();
+    const navigate = useNavigate();
+    useEffect(() => {
+        setCurrPage(location.pathname);
+        console.log('location.path', currPage)
+    }, [location.pathname]);
+
+
 
     return (
         <div className='max-w-[1550px] w-screen max-sm:px-0 px-16 max-md:px-8 '>
@@ -29,21 +39,27 @@ const Navbar = () => {
                 </div>
 
             </div>
-            <div className='flex max-sm:px-4 overflow-x-scroll scrollbar-hidden gap-4 pt-[30px]  text-[16px]'>
-                <div className='flex items-center gap-2 w-[max-content]'>
-                    <Link to='/' className=' font-semibold w-[max-content]'>Trip Planning Call</Link>
-                    <p className='w-[24px] h-[24px] text-white flex justify-center items-center bg-[#faa02e] rounded-full'>0</p>
-                </div>
-                <div className='flex items-center gap-2 w-[max-content] '>
-                    <Link to='/localassistance' className=' font-semibold w-[max-content]'>Local Assistance</Link>
-                    <p className='w-[24px] h-[24px] text-white flex justify-center items-center bg-[#faa02e] rounded-full'>0</p>
-                </div>
-                <div className='flex items-center gap-2 w-[max-content] '>
-                    <Link to='/help' className=' font-semibold w-[max-content]'>Help</Link>
-                    <p className='w-[24px] h-[24px] text-white flex justify-center items-center bg-[#faa02e] rounded-full'>0</p>
-                </div>
-            </div>
-
+            {
+                currPage === '/servicedetails' || currPage === '/helpdetail' ? (<div onClick={() => navigate(-1)} className='flex gap-2 font-semibold text-[16px] items-center pl-4'>
+                    <FaChevronLeft />
+                    <p>Back</p>
+                </div>)
+                    :
+                    <div className='flex max-sm:px-4 overflow-x-scroll scrollbar-hidden gap-4 pt-[30px]  text-[16px]'>
+                        <div className='flex items-center gap-2 w-[max-content] font-semibold'>
+                            <Link to='/' className={`${currPage === '/' ? "border-black border-b-4" : ""}`}>Trip Planning Call</Link>
+                            <p className='w-[24px] h-[24px] text-white flex justify-center items-center bg-[#faa02e] rounded-full'>0</p>
+                        </div>
+                        <div className='flex items-center gap-2 w-[max-content] font-semibold '>
+                            <Link to='/localassistance' className={`${currPage === '/localassistance' ? "border-black border-b-4" : ""}`}>Local Assistance</Link>
+                            <p className='w-[24px] h-[24px] text-white flex justify-center items-center bg-[#faa02e] rounded-full'>0</p>
+                        </div>
+                        <div className='flex items-center gap-2 w-[max-content] font-semibold'>
+                            <Link to='/help' className={`${currPage === '/help' ? "border-black border-b-4" : ""}`}>Help</Link>
+                            <p className='w-[24px] h-[24px] text-white flex justify-center items-center bg-[#faa02e] rounded-full'>0</p>
+                        </div>
+                    </div>
+            }
         </div>
     )
 }

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { PiArrowElbowRightFill } from "react-icons/pi";
 import { LuUserCircle } from "react-icons/lu";
 import { IoTimeOutline } from "react-icons/io5";
@@ -9,14 +9,22 @@ import starFilled from '../../assets/icons/starFilled.svg';
 import star from '../../assets/icons/Star.svg';
 import tiltedarrow from '../../assets/icons/tiltedarrow.svg';
 import '../../index.css';
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 
 const ServiceDetailCard = () => {
     const location = useLocation();
-
+    const navigate = useNavigate();
     // console.log('location', location.state);
     const service = location.state;
+    // console.log('service', service);
+
+    // useEffect(() => {
+    //     console.log('location.state', service);
+    //     if (!service) navigate('/');
+    // }, []);
+
     const [paymentTo, setPaymentTo] = useState(service.paymentTo);
+
 
     const handlePaymentTo = () => {
         console.log('pay', service.paymentTo);

@@ -12,10 +12,11 @@ import '../../index.css';
 import { useNavigate } from 'react-router-dom';
 
 const ServiceCard = ({ service }) => {
+    // console.log('services', service)
     const [paymentTo, setPaymentTo] = useState(service.paymentTo);
     const navigate = useNavigate();
     const handlePaymentTo = () => {
-        console.log('pay', service.paymentTo);
+        // console.log('pay', service.paymentTo);
         if (service.paymentTo == "Service Provider") {
             service.paymentTo = "Service Requestee";
         }
@@ -23,7 +24,7 @@ const ServiceCard = ({ service }) => {
             service.paymentTo = "Service Provider";
         }
         setPaymentTo(service.paymentTo);
-        console.log('payRo', service.paymentTo);
+        // console.log('payRo', service.paymentTo);
     }
 
     return (

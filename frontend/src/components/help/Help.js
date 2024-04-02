@@ -6,7 +6,7 @@ const Help = () => {
     return (
         <div className='flex justify-center pt-16'>
 
-            <HelpDetailCard />
+            <HelpCard />
 
         </div>
 
