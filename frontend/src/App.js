@@ -9,7 +9,7 @@ import ServiceDetailCard from './components/utils/ServiceDetailCard';
 import HelpDetailCard from './components/utils/HelpDetailCard';
 function App() {
   return (
-    <div className='w-[max-content] mx-auto'>
+    <div className='w-[max-content] mx-auto overflow-hidden'>
       <Navbar />
 
       <Routes>

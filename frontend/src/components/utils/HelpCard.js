@@ -9,7 +9,7 @@ const HelpCard = ({ service }) => {
     console.log('serviceee', service);
 
     return (
-        <div className='flex text-[18px] gap-10 max-md:flex-col xl:w-[1350px] max-md:w-[350px] md:w-[1100px] mx-auto shadow-md border-2 px-16 max-xl:px-12 py-20 rounded-3xl mx-6'>
+        <div className='flex text-[18px] gap-10 max-md:flex-col xl:w-[1350px] max-md:w-[350px] md:w-[1100px] mx-auto shadow-md border-2 px-16 max-xl:px-12 py-20 rounded-3xl '>
             <div className='flex flex-col gap-10 max-md:gap-6 w-full mx-auto'>
                 <div className='flex gap-10 items-start max-xl:gap-6 max-md:gap-6 max-md:flex-col'>
                     <div className='max-md:flex max-md:flex-col '>
