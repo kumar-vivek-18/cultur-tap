@@ -10,10 +10,10 @@ const HelpDetailCard = () => {
     console.log('serve', service)
 
     return (
-        <div className='mx-auto pt-16 w-[max-content] overflow-hidden'>
-            <div className='flex text-[18px] gap-10 flex-col w-[max-content] max-md:items-center shadow-md border-2 px-20 max-xl:px-12 py-20 rounded-3xl mx-6 pb-40'>
+        <div className='mx-auto pt-16 w-[1400px]  '>
+            <div className='flex text-[18px] gap-10 flex-col w-full  max-md:items-center shadow-md border-2 px-20 max-xl:px-12 py-20 rounded-3xl mx-6 pb-40'>
                 <div className='flex flex-col gap-10 max-md:gap-6'>
-                    <div className='flex gap-16 items-center max-xl:gap-12 max-md:gap-6 max-md:flex-col'>
+                    <div className='flex gap-12 items-center max-xl:gap-12 max-md:gap-6 max-md:flex-col'>
                         <div className='max-md:flex max-md:flex-col max-md:items-center'>
                             <p className='font-semibold'>User ID</p>
                             <p>{service.userID}</p>
@@ -40,7 +40,7 @@ const HelpDetailCard = () => {
                         </div>
 
                     </div>
-                    <div className='flex gap-32 max-xl:gap-24 max-md:gap-6 max-md:flex-col '>
+                    <div className='flex gap-24 max-xl:gap-24 max-md:gap-6 max-md:flex-col '>
 
 
                         <div className='max-md:flex max-md:flex-col max-md:items-center'>

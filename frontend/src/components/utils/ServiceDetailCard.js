@@ -39,9 +39,9 @@ const ServiceDetailCard = () => {
         console.log('payRo', service.paymentTo);
     }
     return (
-        <div className='flex justify-center mt-16'>
+        <div className='flex justify-center mt-16 xl:w-[1350px]'>
             <div className=''>
-                <div className='shadow-lg  py-10 rounded-3xl w-[max-content] border-2 px-8'>
+                <div className='shadow-lg  py-10 rounded-3xl  border-2 px-8'>
 
                     <div className='flex max-xl:flex-col gap-4 max-sm:pl-8 max-xl:gap-16 max-sm:px-4 max-md:px-6  py-10 max-xl:px-20 max-lg:px-8 w-[max-content]  '>
                         <div className='flex gap-8 max-xl:gap-24 max-lg:gap-12 max-md:flex-col'>
@@ -141,17 +141,17 @@ const ServiceDetailCard = () => {
                             <div className='text-[12px] max-xl:text-[16px]'>
                                 <p className=''>Service Requestee</p>
                                 <p className=' font-semibold pb-[10px]'>Wanna say something to Culturtap?</p>
-                                <div className='w-[250px] h-[70px] bg-[#e9eaeb] px-2 py-1 rounded-md'>{service.serviceRequesteeToCulturtap}</div>
+                                <div className='w-[250px] h-[70px] bg-[#e9eaeb] px-2 py-1 rounded-md overflow-scroll scrollbar-hidden'>{service.serviceRequesteeToCulturtap}</div>
                                 <p className=' font-semibold pt-[20px] pb-[10px]'>Additional Feedback</p>
-                                <div className='w-[250px] h-[70px] bg-[#e9eaeb] px-2 py-1 rounded-md'>{service.serviceRequesteeFeedback}</div>
+                                <div className='w-[250px] h-[70px] bg-[#e9eaeb] px-2 py-1 rounded-md overflow-scroll scrollbar-hidden'>{service.serviceRequesteeFeedback}</div>
                             </div>
 
                             <div className='text-[12px] max-xl:text-[16px]'>
                                 <p className=''>Service Provider</p>
                                 <p className=' font-semibold pb-[10px]'>Wanna say something to Culturtap?</p>
-                                <div className='w-[250px] h-[70px] bg-[#e9eaeb] px-2 py-1 rounded-md'>{service.serviceProviderToCulturtap}</div>
+                                <div className='w-[250px] h-[70px] bg-[#e9eaeb] px-2 py-1 rounded-md overflow-scroll scrollbar-hidden'>{service.serviceProviderToCulturtap}</div>
                                 <p className=' font-semibold pt-[20px] pb-[10px]'>Additional Feedback</p>
-                                <div className='w-[250px] h-[70px] bg-[#e9eaeb] px-2 py-1 rounded-md'>{service.serviceProviderFeedback}</div>
+                                <div className='w-[250px] h-[70px] bg-[#e9eaeb] px-2 py-1 rounded-md overflow-scroll scrollbar-hidden'>{service.serviceProviderFeedback}</div>
                             </div>
 
                             <div className='flex max-xl:gap-24 max-lg:gap-12 gap-6 max-xl:flex-col max-sm:flex-row'>

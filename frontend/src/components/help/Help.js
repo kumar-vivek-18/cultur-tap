@@ -13,11 +13,21 @@ const Help = () => {
         platform: "Website",
         helpRequest: "I avail trip planning service yesterday, I was not able to connect with the trip planner.",
         paymentTo: "Aishwary"
+    },
+    {
+        userID: "1209857463237",
+        userName: "Rohit Kumar Tomar",
+        time: "12:00 A.M.",
+        date: "15-Aug-2023",
+        email: "rohitkumartomar@gmail.com",
+        contactNumber: "+1 7890-89-9879",
+        platform: "Website",
+        helpRequest: "I avail trip planning service yesterday, I was not able to connect with the trip planner.",
+        paymentTo: "Rohit"
     }]
     return (
-        <div className='flex justify-center pt-16'>
+        <div className='flex flex-col gap-10 justify-center pt-16 items-center'>
 
-            {/* <HelpCard /> */}
             {
                 services.map((service) => {
                     return <HelpCard service={service} key={service.userID} />

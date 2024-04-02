@@ -40,7 +40,7 @@ const Navbar = () => {
 
             </div>
             {
-                currPage === '/servicedetails' || currPage === '/helpdetail' ? (<div onClick={() => navigate(-1)} className='cursor-pointer flex gap-2 font-semibold text-[16px] items-center pl-4'>
+                currPage === '/servicedetails' || currPage === '/helpdetail' ? (<div onClick={() => navigate(-1)} className='cursor-pointer flex gap-2 font-semibold text-[16px] items-center pl-4 pt-[30px]'>
                     <FaChevronLeft />
                     <p>Back</p>
                 </div>)
