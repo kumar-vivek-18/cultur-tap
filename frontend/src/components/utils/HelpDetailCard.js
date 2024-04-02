@@ -11,7 +11,7 @@ const HelpDetailCard = () => {
 
     return (
         <div className='mx-auto  pt-16 xl:w-[1400px]  max-md:w-[350px]'>
-            <div className='mx-auto flex text-[18px] gap-10 flex-col w-full shadow-md border-2 px-20 max-xl:px-10 py-20 rounded-3xl mx-6 pb-40'>
+            <div className='mx-auto flex text-[18px] gap-10 flex-col w-full shadow-md border-2 px-20 max-xl:px-10 max-md:px-4 py-20 rounded-3xl mx-6 pb-40'>
                 <div className='flex flex-col gap-10 max-md:gap-6'>
                     <div className='flex gap-12  max-xl:gap-12 max-md:gap-6 max-md:flex-col'>
                         <div className='max-md:flex max-md:flex-col '>

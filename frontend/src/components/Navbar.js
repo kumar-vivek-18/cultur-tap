@@ -18,7 +18,7 @@ const Navbar = () => {
 
 
     return (
-        <div className='max-w-[1550px] w-screen max-sm:px-0 px-16 max-md:px-8 '>
+        <div className='max-w-[1550px] mx-auto w-screen max-sm:px-0 px-16 max-md:px-8 '>
             <div className='flex w-full justify-between items-center '>
                 <div>
                     <img src={logo} alt="culturTap" className='w-[316px] h-[100px] max-sm:w-[220px] max-sm:h-[80px]' loading='lazy' />
